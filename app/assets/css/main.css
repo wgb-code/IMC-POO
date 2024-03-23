@@ -2,17 +2,43 @@
 
 :root{
     --color-header-title: #242731;
+    --color-text-usage-information-span: #007AFF;
+    --color-text-usage-information-span: #242426;
+    --box-span: #F0F2F4;
 }
 
-.container{
+.container {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header .header-title{
+header .header-title {
     font-size: 28px;
-    font-weight: 600;
-    color: #242731;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-header-title);
+}
+
+.authorize-data .usage-information {
+    font-family: 'Roboto', sans-serif;
+}
+
+.usage-information .text-usage-information-span {
+    color: var(--color-text-usage-information-span);
+    letter-spacing: 0.5px;
+}
+
+.usage-information .box-span{
+    background-color: var(--box-span);
+}
+
+.usage-information .text-usage-information-span {
+    color: var(--color-text-usage-information-span);
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.box-span .svg-locked {
+    width: 25px; height: 25px;
 }
