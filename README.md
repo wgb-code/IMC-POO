@@ -12,6 +12,7 @@ Desafio: Criar uma aplicação que irá realizar o calculo do IMC das pessoas ut
 ## Stack utilizada
 
 **Front-end:** TypeScript, TailwindCSS
-**Back-end:** PHP, PostgreSQL
-**Infra:** Docker
 
+**Back-end:** PHP, PostgreSQL
+
+**Infra:** Docker
