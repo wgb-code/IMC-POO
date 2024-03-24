@@ -5,6 +5,11 @@
     --color-text-usage-information-span: #007AFF;
     --color-text-usage-information-span: #242426;
     --box-span: #F0F2F4;
+    --bg-general: #F1F5F9;
+}
+
+.bg-general {
+    background-color: var(--bg-general);
 }
 
 .container {
@@ -41,4 +46,17 @@ header .header-title {
 
 .box-span .svg-locked {
     width: 25px; height: 25px;
+}
+
+.accept-terms button svg {
+    width: 25px;
+}
+
+.accept-terms button{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    background-color: var(--color-header-title);
+    border: none;
+    color: var(--bg-general);
 }

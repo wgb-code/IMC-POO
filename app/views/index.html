@@ -14,10 +14,10 @@
     <title>IMC Orientado a Objeto</title>
 </head>
 
-<body>
+<body class="bg-general user-select-none">
 
-    <div class="container ">
-        <div class="authorize-data border p-5 rounded">
+    <div class="container">
+        <div class="authorize-data p-5 bg-light rounded shadow-lg">
             <header class="d-flex justify-content-start  align-items-center gap-2">
                 <img src="/app/assets/imgs/apple-touch-icon.png" alt="IMC Logo" title="IMC" width="50px" height="50px">
                 <h1 class="header-title fw-bold">IMC Software</h1>
@@ -28,14 +28,24 @@
                     Seus dados de peso, altura, idade e gênero serão utilizados para levantamentos de gráficos de sáude nutricional.
                 </p>
                 <br>
-                <div class="box-span rounded d-flex justify-content-center align-items-center p-3 gap-2">
+                <div class="box-span rounded d-flex justify-content-center align-items-center p-3 gap-2 shadow" title="Seu nome jamais será divulgado.">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="svg-locked">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
                     </svg>
-                    <p class="text-usage-information-span my-auto">
+                    <p class="text-usage-information-span text-center my-auto">
                         Nenhum outro dado fora os mencionados serão utilizados ou vazados.
                     </p>
                 </div>
+            </section>
+            <section class="accept-terms">
+                <form action="#">
+                    <button class="btn-accepts d-flex justify-content-center align-items-center p-2 rounded gap-2 mt-5" type="submit" title="Ao aceitar os termos, iremos iniciar sua avaliação IMC">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                        </svg>
+                        Aceitar os termos de uso
+                    </button>
+                </form>
             </section>
         </div>
     </div>
