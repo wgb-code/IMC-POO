@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color-header-title: #242731;
+    --color-text-usage-information-span: #242426;
+    --box-span: #F0F2F4;
+    --bg-general: #F1F5F9;
+    --border-input: #E2E4E5;
+}
+
+.bg-general {
+    background-color: var(--bg-general);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-title{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-header-title);
+}
+
+section form {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+section form label {
+    color: var(--color-header-title);
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+section form input {
+    border: 0.5px solid var(--color-text-usage-information-span);
+    width: 20vw;
+}
+
+section form select {
+    border: 0.5px solid var(--color-text-usage-information-span);
+    width: 20vw;
+}
+
+section form button {
+    background-color: var(--color-header-title);
+    border: none;
+    width: 20vw;
+}
+
+section form small {
+    width: 20vw;
+    color: var();
+}

@@ -7,19 +7,18 @@
     <meta name="description" content="Trabalho de programação orientado a objeto - UPF 2024">
     <meta name="keywords" content="POO, IMC, PHP">
     <!--Bootstrap-->
-    <link rel="stylesheet" href="/app/assets/css/reset.css">
-    <link rel="stylesheet" href="/app/assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>IMC Orientado a Objeto</title>
 </head>
 
-<body class="bg-general user-select-none">
-
+<body class="bg-general">
     <div class="container">
         <div class="authorize-data p-5 bg-light rounded shadow-lg">
             <header class="d-flex justify-content-start  align-items-center gap-2">
-                <img src="/app/assets/imgs/apple-touch-icon.png" alt="IMC Logo" title="IMC" width="50px" height="50px">
+                <img src="assets/imgs/android-chrome-192x192.png" alt="IMC Logo" title="IMC" width="50px" height="50px">
                 <h1 class="header-title fw-bold">IMC Software</h1>
             </header>
             <section class="usage-information m-4">
@@ -38,19 +37,17 @@
                 </div>
             </section>
             <section class="accept-terms">
-                <form action="#">
-                    <button class="btn-accepts d-flex justify-content-center align-items-center p-2 rounded gap-2 mt-5" type="submit" title="Ao aceitar os termos, iremos iniciar sua avaliação IMC">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
-                        </svg>
-                        Aceitar os termos de uso
-                    </button>
-                </form>
+                <button class="btn-accepts d-flex justify-content-center align-items-center p-2 rounded gap-2 mt-5" id="accept-terms" type="submit" title="Ao aceitar os termos, iremos iniciar sua avaliação IMC">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                    </svg>
+                    Aceitar os termos de uso
+                </button>
             </section>
         </div>
     </div>
 
-
+    <script src="assets/js/accept-terms.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
